@@ -2,5 +2,7 @@ dict = {"joy": "happiness", "rapid":"quick", "high":"pick", "stranger":"unknown 
 
 print("add word to get meaning: ")
 search = input()
-
-print(f"\n {search} = { dict[search]} ")
+if search in dict:
+    print(f"\n {search} = { dict[search]} ")
+else:
+  print("word that has to be searched not found")

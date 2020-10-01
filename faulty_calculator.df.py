@@ -1,12 +1,7 @@
 #  this calculator will return false answer for specific calculation i.e 2*4 = 15
-print("enter value a: ")
-a = int(input())
-print("\n enter value b: ")
-b = int(input())
-print("choose any operator + / * - %")
-c = input()
-
-
+a = int(input("enter a number:"))
+b = int(input("enter the value of b:"))
+c = input("choose any operator +, / ,* ,-, %:")
 if a == 45 and b == 3 and c == "*":
     print("555")
 elif a == 56 and b == 9 and c == "+":
